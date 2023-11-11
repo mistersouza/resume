@@ -111,4 +111,15 @@ a {
     background: rgba(0, 0, 0, 0.2);
 }
 
+/* ----------------------------------------------------Footer */
+footer {
+    font-family: 'Exo', sans-serif;
+    color: #fafafa;
+    background-color: #525252;
+    min-height: 120px;
+}
+
+footer h5 {
+    font-weight: 300;
+}
 
