@@ -151,19 +151,23 @@ footer .fa-brands  {
 
 
 /* ---------------------------------------------------- Reasons*/
-.table {
+
+.reasons-table {
+    display: table-row;
     font-family: 'Exo', sans-serif;
 }
 
-.table-row {
-    display: table;
-}
-
-.table-col {
+.reasons-table__col {
     display: table-cell;
-    padding: 0 1rem 1rem;
+    padding: 1.5rem;
 }
 
-.table-heading {
+.reasons-table__heading {
     font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.reasons-table .fa {
+    font-size: 1.85rem;
+    color: #e67e22;
 }
