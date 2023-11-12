@@ -128,7 +128,6 @@ footer h5 {
 
 footer i {
     margin: 0;
-    transition: all .35s ease-in-out;
 }
 
 footer .fa-brands  {
@@ -143,17 +142,29 @@ footer .fa-brands  {
     align-items: center;
 }
 
-footer .fa-download:hover {
-    color: #e67e22;
-}
-
-footer .fa-brands:hover {
-    background: #e67e22;
-}
-
 @media screen and (max-width: 767px) {
     /* Align content on small screens */
     footer {
     text-align: center;
   } 
+}
+
+
+/* ---------------------------------------------------- Reasons*/
+.table {
+    font-family: 'Exo', sans-serif;
+}
+
+.table-row {
+    display: table;
+}
+
+.table-col {
+    display: table-cell;
+    padding: 0 1rem 1rem;
+}
+
+.table-heading {
+    font-weight: 300;
+    margin: 1.5rem 0 3rem;
 }
