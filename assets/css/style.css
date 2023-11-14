@@ -147,14 +147,6 @@ footer .fa-brands  {
     align-items: center;
 }
 
-@media screen and (max-width: 767px) {
-    /* Align content on small screens */
-    footer {
-    text-align: center;
-  } 
-}
-
-
 /* ---------------------------------------------------- Reasons*/
 
 .table-container {
@@ -209,7 +201,6 @@ footer .fa-brands  {
 .timeline-item {
     position: relative;
     
-    
     padding: 2.5rem 0 1rem;
 }
 
@@ -252,3 +243,44 @@ footer .fa-brands  {
     padding: 0 0.75rem;
 }
 
+/* ---------------------------------------------------- Contact*/
+.contact {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+
+    padding: 2.5rem 0 1.5rem;
+}
+.contact-form {
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+button[type='submit'] {
+    color: #fafafa;
+    background-color: #e67e22;
+    border: none;
+}
+
+button[type='submit']:hover {
+    background-color: #d35400;
+}
+
+/* ---------------------------------------------------- Media Queries*/
+
+@media screen and (max-width: 767px) {
+    /* Align footer content on small screens */
+    footer {
+    text-align: center;
+  } 
+}
+
+@media screen and (min-width: 991px) {
+   .contact-form {
+    max-width: 50%;
+   }
+
+   .contact-form textarea {
+    height: 150px;
+   }
+}
