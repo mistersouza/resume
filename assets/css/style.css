@@ -46,9 +46,11 @@ a {
    padding: 3.5rem 3.5rem 5rem;
 }
 
+
 .logo {
     background: url("../images/rosie.jpg") center/cover no-repeat;
     min-height: 360px;
+
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -75,6 +77,10 @@ a {
 .list-inline {
     font-size: 0;
     margin: 0;
+}
+
+header .col-md-8 {
+    padding: 0;
 }
 
 header .list-inline-item {
@@ -186,6 +192,51 @@ footer .fa-brands  {
 .history .bg-color {
     background-color: #9b59b6;
 }
+
+.history .first-heading {
+    color: #fafafa;
+}
+
+.timelines-container {
+    position: relative;
+    padding: 0 2rem;
+
+    border-left: 1px solid #fafafa;
+
+    color: #fafafa;
+}
+
+.timeline-item {
+    position: relative;
+    
+    
+    padding: 2.5rem 0 1rem;
+}
+
+.timeline-item::before {
+    display: block;
+    content: attr(data-dates);
+    
+    position: absolute;
+    top: 1rem;
+    
+    font-family: 'Exo', sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+.timeline-item::after {
+    content: '';
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    background-color: #fafafa;
+
+    position: absolute;
+    top: 1rem;
+    left: -38px;
+}
+
 /* ---------------------------------------------------- Progress bar*/
 .progress-container {
     padding: 2rem 0 0;
